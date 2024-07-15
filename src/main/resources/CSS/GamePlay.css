@@ -1,0 +1,42 @@
+/*#FF9999*/
+/*#FFCCCC*/
+/*#FF99CC*/
+
+.top_container {
+    -fx-font-size: 17pt;
+}
+
+.top_container Button {
+    -fx-background-color: none;
+    -fx-border-radius: 20pt;
+    -fx-border-color: none;
+    -fx-text-fill: #FFFFFF;
+}
+
+.top_container Button:hover {
+    -fx-background-color: #F99AAA;
+    -fx-border-radius: 50em;
+    -fx-border-color: none;
+    -fx-text-fill: #FFFFFF;
+}
+
+.sudoku_board_container SudokuTextField {
+    -fx-min-width: 48px;
+    -fx-max-width: 48px;
+    -fx-border-insets: 2px;
+    -fx-background-color: none;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.sudoku_board_container Rectangle {
+    -fx-border-width: 3px;
+}
+
+.control_container Icon {
+    -fx-text-fill: #344861;
+}
+
+.control_container TextField {
+    -fx-text-fill: #FFFFFF;
+}

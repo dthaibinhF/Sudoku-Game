@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="background_container" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_sudokugame_00.Controller.MenuController">
+   <children>
+      <Label id="lblGameTitle" alignment="CENTER" contentDisplay="CENTER" text="SUDOKU" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets bottom="30.0" />
+         </VBox.margin>
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="easyBtn" mnemonicParsing="false" onAction="#setEasyMode" prefHeight="20.0" prefWidth="80.0" text="EASY" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets bottom="10.0" top="5.0" />
+         </VBox.margin>
+      </Button>
+      <Button fx:id="mediumBtn" mnemonicParsing="false" onAction="#setMediumMode" prefHeight="20.0" prefWidth="80.0" text="MEDIUM" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets bottom="10.0" top="5.0" />
+         </VBox.margin>
+      </Button>
+      <Button fx:id="hardBtn" mnemonicParsing="false" onAction="#setHardMode" prefHeight="20.0" prefWidth="80.0" text="HARD" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets bottom="10.0" top="5.0" />
+         </VBox.margin>
+      </Button>
+      <Button fx:id="conBtn" mnemonicParsing="false" onAction="#continueBtn" prefHeight="20.0" prefWidth="80.0" text="CONTINUE" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets bottom="10.0" top="5.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+   <stylesheets>
+      <URL value="@../../../../CSS/Main.css" />
+      <URL value="@../../../../CSS/Menu.css" />
+   </stylesheets>
+</VBox>

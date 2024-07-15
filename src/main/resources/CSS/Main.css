@@ -1,0 +1,25 @@
+.background_container {
+    -fx-background-color: #FFCCCC;
+}
+
+.background_container Button{
+    -fx-background-color: none;
+    -fx-border-radius: 20px;
+    -fx-border-color: #FF9999;
+    -fx-border-width: 0.5;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+
+.background_container Button:hover{
+    -fx-background-color: #F99AAA;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-color: #FF7E94;
+    -fx-border-width: 0.5;
+}
+
+.background_container Label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
